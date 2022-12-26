@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    height: 20%;
+    background-color: dodgerblue;
+}
+
+.footer {
+    height: 20%;
+    background-color: dodgerblue;
+}
+
+.texts {
+    align-items: center;
+}
+
+.main-container {
+    height: 60%;
+}
+
+.side-menu {
+    height: 100%;
+    background-color: pink;
+}
+
+.content-container {
+    height: 100%;
+}
+
+.content-header {
+    height: 20%;
+    background-color: darkseagreen;
+}
+
+.content {
+    height: 80%;
+}
+
+.article {
+    height: 100%;
+}
+
+.side-article {
+    height: 100%;
+    background-color: pink;
+}
