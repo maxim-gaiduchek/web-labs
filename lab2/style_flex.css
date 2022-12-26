@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.header {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+    background-color: dodgerblue;
+}
+
+.footer {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+    background-color: dodgerblue;
+}
+
+.texts {
+    flex-grow: 8;
+
+    display: flex;
+    align-items: center;
+}
+
+.main-container {
+    flex-grow: 3;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.side-menu {
+    flex-grow: 1;
+
+    display: flex;
+    background-color: pink;
+}
+
+.content-container {
+    flex-grow: 1;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.content-header {
+    flex-grow: 1;
+
+    display: flex;
+    width: 100%;
+    /*height: 20%;*/
+    background-color: darkseagreen;
+}
+
+.content {
+    flex-grow: 5;
+
+    display: flex;
+    /*height: 80%;*/
+    flex-direction: row;
+    /*align-items: stretch;
+    align-content: stretch;*/
+}
+
+.article {
+    flex-grow: 5;
+    flex-basis: 100%;
+
+    display: flex;
+    /*width: 82.4%;*/
+    /*height: 100%;*/
+}
+
+.side-article {
+    flex-grow: 1;
+    flex-basis: 100%;
+
+    display: flex;
+    /*height: 100%;*/
+    /*width: 17.6%;*/
+    background-color: pink;
+}
