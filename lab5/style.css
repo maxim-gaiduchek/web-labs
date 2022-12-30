@@ -70,6 +70,7 @@ body {
 
 .article {
     display: flex;
+    flex-direction: column;
     width: 82.4%;
     height: 100%;
 }

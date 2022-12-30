@@ -31,7 +31,7 @@ function swapXY() {
 function calcSquare() {
     let height = 100, width = 20.331;
 
-    document.getElementById("square-result").innerText = height * width;
+    document.getElementById("square-result").innerText = `${height} * ${width} = ${height * width}`;
 }
 
 numbersForm.addEventListener("submit", (e) => {
