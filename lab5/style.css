@@ -187,4 +187,8 @@ body {
         width: 30px;
         height: 30px;
     }
+
+    .filled-table-save {
+        font-size: 32pt;
+    }
 }
