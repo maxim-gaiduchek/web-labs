@@ -1,0 +1,24 @@
+.github-icon {
+    height: 30px;
+    width: 30px;
+}
+
+@media all and (max-width: 1280px) {
+
+    * {
+        font-size: 24pt;
+    }
+
+    h1 {
+        font-size: 48pt;
+    }
+
+    h2 {
+        font-size: 36pt;
+    }
+
+    .github-icon {
+        height: 100px;
+        width: 100px;
+    }
+}
