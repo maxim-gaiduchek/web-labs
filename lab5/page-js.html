@@ -47,17 +47,31 @@
 
                 <p><b>Square's area: </b><span id="square-result"></span></p>
 
-                <form id="numbers-form" style="display: none">
+                <form id="numbers-form" class="numbers-form" style="display: none">
                     <h3>Minimum and maximum</h3>
-                    <label>Number: <input id="numbers-input" type="number"></label>
-                    <input type="submit"><br>
+                    <label>Number: <input id="numbers-input" class="numbers-form-input" type="number"></label>
+                    <input class="numbers-form-submit" type="submit"><br>
                     <p><b>Numbers:</b> <span id="numbers-container">(10 left)</span></p>
                 </form>
             </div>
             <div class="side-article"> <!--5-->
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam dolorem earum esse et
-                    fugit, id libero neque praesentium sunt temporibus voluptatem? Consectetur distinctio eius error
-                    impedit itaque nulla ut.</p>
+                <div id="bold-text-container" class="normal" tabindex="0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusantium aliquam dolorem earum esse et
+                        fugit, id libero neque praesentium sunt temporibus voluptatem? Consectetur distinctio eius error
+                        impedit itaque nulla ut.</p>
+                </div>
+
+                <table class="bold-text-input-table">
+                    <tr>
+                        <td>Normal</td>
+                        <td><input id="normal-text-input" type="radio" name="bold-text"></td>
+                    </tr>
+                    <tr>
+                        <td>Bold</td>
+                        <td><input id="bold-text-input" type="radio" name="bold-text"></td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
